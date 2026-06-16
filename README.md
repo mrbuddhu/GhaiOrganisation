@@ -1,6 +1,17 @@
-# Ghai Organisation - NGO Website
+# Ghai Organisation
+
+## NGO Website
 
 A modern, responsive NGO website built with Next.js, TypeScript, and Tailwind CSS.
+
+---
+
+## ⚠️ Important Notice
+
+**This project is proprietary and confidential.**
+This is the exclusive intellectual property of SanganakHQ (mrbuddhu). **This project should not be copied, distributed, reproduced, or used in any form without explicit written permission.** All rights reserved.
+
+---
 
 ## Features
 
@@ -14,6 +25,8 @@ A modern, responsive NGO website built with Next.js, TypeScript, and Tailwind CS
 - 📧 Contact forms
 - 📊 Impact statistics
 
+---
+
 ## Quick Start
 
 ### Prerequisites
@@ -23,40 +36,36 @@ A modern, responsive NGO website built with Next.js, TypeScript, and Tailwind CS
 
 ### Installation
 
-1. **Clone or download the project**
-   \`\`\`bash
-   # If you have the code, navigate to the project directory
-   cd ghai-ngo-website
-   \`\`\`
-
-2. **Install dependencies**
-   \`\`\`bash
+1. **Install dependencies**
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
-3. **Run the development server**
-   \`\`\`bash
+2. **Run the development server**
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
-4. **Open your browser**
+3. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Build for Production
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
+
+---
 
 ## Project Structure
 
-\`\`\`
-ghai-ngo-website/
+```
+GhaiOrgNGO/
 ├── app/
 │   ├── globals.css
 │   ├── layout.tsx
@@ -75,14 +84,16 @@ ghai-ngo-website/
 ├── tailwind.config.js
 ├── tsconfig.json
 └── README.md
-\`\`\`
+```
+
+---
 
 ## Customization
 
 ### Colors
 Edit `tailwind.config.js` to change the color scheme:
 
-\`\`\`js
+```js
 theme: {
   extend: {
     colors: {
@@ -90,7 +101,7 @@ theme: {
     }
   }
 }
-\`\`\`
+```
 
 ### Content
 - Update organization details in components
@@ -98,17 +109,21 @@ theme: {
 - Modify program information
 - Update contact details
 
-### Deployment
+---
 
-#### Vercel (Recommended)
+## Deployment
+
+### Vercel (Recommended)
 1. Push code to GitHub
 2. Connect to Vercel
 3. Deploy automatically
 
-#### Other Platforms
+### Other Platforms
 - Netlify
 - Railway
 - DigitalOcean App Platform
+
+---
 
 ## Technologies Used
 
@@ -119,8 +134,21 @@ theme: {
 - **Lucide React** - Icons
 - **next-themes** - Dark mode
 
-## Support
+---
 
-Built with ❤️ by [Sanganak - #1 Premium IT Boutique](https://sanganak.org)
+## License & Confidentiality
 
-For support, contact: info@ghaiorganisation.org
+This project and all associated materials are confidential and proprietary.
+© 2026 SanganakHQ (mrbuddhu). All Rights Reserved.
+
+No part of this project may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of SanganakHQ (mrbuddhu).
+
+---
+
+## Contact
+
+For inquiries regarding this project, please contact SanganakHQ (mrbuddhu) directly.
+
+---
+
+Built with ❤️ by SanganakHQ (mrbuddhu)
